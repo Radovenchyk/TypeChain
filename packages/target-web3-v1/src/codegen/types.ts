@@ -70,5 +70,5 @@ export function codegenOutputType(evmType: EvmOutputType): string {
 }
 
 export function codegenTupleType(tuple: TupleType, generator: (evmType: EvmType) => string) {
-  return '[' + tuple.components.map((component) => generator(component.type)).join(', ') + ']'
+  return '{ ' + tuple.components.map((component) => `${component.name}: ${generator(component.type)}`).join('; ') + '}';
 }
