@@ -1,6 +1,6 @@
 {
   "name": "monorepo-base",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0",
