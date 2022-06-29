@@ -7,6 +7,7 @@
     "TypeChain",
     "TypeScript"
   ],
+  "private": false,
   "version": "6.0.1",
   "license": "MIT",
   "repository": "https://github.com/ethereum-ts/Typechain",
